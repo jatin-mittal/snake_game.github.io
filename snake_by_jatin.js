@@ -159,7 +159,7 @@ function getRandomFood(){
 function gameloop(){
 	if(game_over==true){
 		clearInterval(f);
-		alert("Game Over");
+		alert("Game Over ! till now this is working only on desktop");
 		return;
 	}
 	draw();
